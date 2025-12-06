@@ -9,7 +9,7 @@ A lightweight **C++17 machine learning library**.
 
 It demonstrates how classical ML algorithms can be implemented from scratch using modern C++ practices. The goal is to explore how core ML algorithms work *under the hood* and to demonstrate modern C++ engineering practices (modular design, tests, CI).
 
-### The library includes:
+The library includes:
 
 - **Logistic Regression** (binary classification via gradient descent)
 - **Multinomial Naive Bayes** (count/frequency-based classification)
