@@ -142,3 +142,5 @@ Default entrypoint runs the logistic regression example.
 ## 📄 License
 
 This project is released under the MIT License.
+
+---
