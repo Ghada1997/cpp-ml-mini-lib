@@ -1,0 +1,55 @@
+# Build artifacts
+build/
+build-debug/
+build-release/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+cmake_install.cmake
+Makefile
+
+# Compiled object files & libraries
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs & temporary files
+*.log
+*.tmp
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*~
+*.swp
+*.swo
+
+# Unit test coverage
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Datasets: ignore big ones but keep tiny toy examples
+datasets/
+!examples/data/
+
+# Git & GitHub metadata (no need in image)
+.git/
+.github/

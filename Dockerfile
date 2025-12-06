@@ -14,7 +14,8 @@ WORKDIR /app
 COPY . .
 
 # Configure, build, and run tests
-RUN cmake -S . -B build && \
+RUN rm -rf build && \
+    cmake -S . -B build && \
     cmake --build build && \
     cd build && ctest --output-on-failure
 
